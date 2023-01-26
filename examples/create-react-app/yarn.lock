@@ -4790,10 +4790,10 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-docz-components@2.0.0-rc.38:
-  version "2.0.0-rc.38"
-  resolved "https://registry.npmjs.org/docz-components/-/docz-components-2.0.0-rc.38.tgz#02fcac8999080bb924134562916459cbdcf38626"
-  integrity sha512-8xoYW553H86JDikiLIS+T7ZjK7+ruZ7pLNlIgjNhAFrAFcoMxtFqX1VSn6B9WRSuesy6RGq9xyz7OMOctVm6Jg==
+docz-components@2.0.0-rc.43:
+  version "2.0.0-rc.43"
+  resolved "https://registry.yarnpkg.com/docz-components/-/docz-components-2.0.0-rc.43.tgz#0281c5d2912b4369070ffb9554c8ecf556439346"
+  integrity sha512-rC+qEXCBYzA9QsKLL2KnGXZVIu1LZ9198fp9w+iI019sEcchWXIpia6BN0x4MCSx0qdCQNpTxEmBQgaV6gu4FQ==
   dependencies:
     "@emotion/core" "^10.0.16"
     "@mdx-js/react" "^1.4.0"
@@ -4807,46 +4807,10 @@ docz-components@2.0.0-rc.38:
     theme-ui "^0.2.38"
     typography-theme-moraga "^0.16.19"
 
-docz-core@2.0.0-rc.38:
-  version "2.0.0-rc.38"
-  resolved "https://registry.npmjs.org/docz-core/-/docz-core-2.0.0-rc.38.tgz#34d14b4d8da4f1da710d0d821be06677d45507df"
-  integrity sha512-hX6CiaEDuriGY3kzXjAfJKGSPdSmPLFA3NlahsJOD+MaLL+wIj8Om/pHw42w1Sv7Aogsp0/gzrFO/u3w67vr0g==
-  dependencies:
-    "@sindresorhus/slugify" "^0.9.1"
-    chalk "^2.4.2"
-    chokidar "^3.0.2"
-    detect-port "^1.3.0"
-    docz-utils "^2.0.0-rc.1"
-    env-dot-prop "^2.0.1"
-    fast-deep-equal "^2.0.1"
-    fast-glob "^3.0.4"
-    find-up "^4.1.0"
-    fs-extra "^8.1.0"
-    get-pkg-repo "^4.1.0"
-    humanize-string "^2.1.0"
-    latest-version "^5.1.0"
-    load-cfg "^2.0.0-rc.1"
-    lodash "^4.17.14"
-    minimatch "^3.0.4"
-    ora "^3.4.0"
-    react-docgen "^4.1.1"
-    react-docgen-actual-name-handler "^2.0.0-rc.1"
-    react-docgen-external-proptypes-handler "^1.0.3"
-    react-docgen-typescript "^1.12.5"
-    recast "^0.18.1"
-    resolve "^1.11.1"
-    shelljs "^0.8.3"
-    signale "^1.4.0"
-    titleize "^2.1.0"
-    typescript "3.5.3"
-    wait-on "^3.3.0"
-    xstate "^4.6.7"
-    yargs "^13.3.0"
-
-docz-core@2.0.0-rc.6:
-  version "2.0.0-rc.6"
-  resolved "https://registry.npmjs.org/docz-core/-/docz-core-2.0.0-rc.6.tgz#ed3221575e16edf9b2cf27456fdd1cce7d3f11aa"
-  integrity sha512-sAW9KQxpp/fQFGL3GMRJzO7fiqVoGVhqZ4Geq4UD5Ex1vHfKBwq8/5NRdRj0O0rmKXwmZ64ulvfaSqwF+2Z6/Q==
+docz-core@2.0.0-rc.43:
+  version "2.0.0-rc.43"
+  resolved "https://registry.yarnpkg.com/docz-core/-/docz-core-2.0.0-rc.43.tgz#0aed217db4e6f83a70dcb0aabbab8c61ee18df94"
+  integrity sha512-ZkIDjxUo1Nk+4Qqh/izdtCCx2uyOGrcdaheAnaXFRFZBSARUJVScQhPekIZ3RMK6an5LVWqZjBxV1rqhPnu4ew==
   dependencies:
     "@sindresorhus/slugify" "^0.9.1"
     chalk "^2.4.2"
@@ -4907,41 +4871,22 @@ docz-utils@^2.0.0-rc.1:
     unist-util-is "^3.0.0"
     unist-util-visit "^1.4.1"
 
-docz@2.0.0-rc.9:
-  version "2.0.0-rc.9"
-  resolved "https://registry.npmjs.org/docz/-/docz-2.0.0-rc.9.tgz#e3874c8efa66619e7d19ac9d1664aba3c09853c1"
-  integrity sha512-3tMx4jxoV9WQd+ZMg3zmKXwK+tX48RZgBpVH3pEtcuUrTJM15Ze+J+VJnlK0L+SvZ9wNr8bMdR2s/g8PJANA+Q==
-  dependencies:
-    "@mdx-js/react" "^1.0.27"
-    array-sort "^1.0.0"
-    capitalize "^2.0.0"
-    docz-core "2.0.0-rc.6"
-    fast-deep-equal "^2.0.1"
-    gatsby "^2.13.27"
-    lodash "^4.17.14"
-    marksy "^8.0.0"
-    match-sorter "^3.1.1"
-    prop-types "^15.7.2"
-    scheduler "^0.15.0"
-    ulid "^2.3.0"
-    yargs "^13.3.0"
-
-docz@^2.0.0-rc.38:
-  version "2.0.0-rc.38"
-  resolved "https://registry.npmjs.org/docz/-/docz-2.0.0-rc.38.tgz#51110e8eb8a583e41802d344c084c435ac8565f3"
-  integrity sha512-lV0Fkj73BVa6VicW0CrdR/VAUTk4oK186+caty8a76zRcq4MM6O5NNSrkOzjIoMTe6aHR4n9V+naR45yjX17yw==
+docz@2.0.0-rc.43:
+  version "2.0.0-rc.43"
+  resolved "https://registry.yarnpkg.com/docz/-/docz-2.0.0-rc.43.tgz#eb49c180532456b12370252b59ee7596c8d6e09a"
+  integrity sha512-HdBBEoIuh3jT7dcYyfULpnTkTxuKiEVxYCGBG55VhJwIGQdTPHBIMO74BUpEjP5XCjZAb4G1vjGQJl/asB/3bQ==
   dependencies:
     "@emotion/core" "^10.0.16"
     "@mdx-js/react" "^1.0.27"
     array-sort "^1.0.0"
     capitalize "^2.0.0"
-    docz-components "2.0.0-rc.38"
-    docz-core "2.0.0-rc.38"
+    docz-components "2.0.0-rc.43"
+    docz-core "2.0.0-rc.43"
     fast-deep-equal "^2.0.1"
     gatsby "^2.13.27"
     gatsby-plugin-eslint "^2.0.5"
     gatsby-plugin-typescript "^2.1.6"
-    gatsby-theme-docz "2.0.0-rc.38"
+    gatsby-theme-docz "2.0.0-rc.43"
     lodash "^4.17.14"
     marksy "^8.0.0"
     match-sorter "^3.1.1"
@@ -6549,10 +6494,10 @@ gatsby-telemetry@^1.1.23:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-docz@2.0.0-rc.38:
-  version "2.0.0-rc.38"
-  resolved "https://registry.npmjs.org/gatsby-theme-docz/-/gatsby-theme-docz-2.0.0-rc.38.tgz#274c613c7a175f3ff19ff3653f13736a547a3ffa"
-  integrity sha512-i8JexOVMz1ZSOuPyOS/XC4tpwUQH/4DVGuMveFvRohZH/r2O7L7V1HeQnfuK6vRP8xsWYeFtLICgJ0Jsz5YEHw==
+gatsby-theme-docz@2.0.0-rc.43:
+  version "2.0.0-rc.43"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-docz/-/gatsby-theme-docz-2.0.0-rc.43.tgz#3547e2a1cc0a9e8d0cf8fcaa81df31f0500c8ca3"
+  integrity sha512-KaBXSQyJDZjihYdOOD39tjFTKXX/BOxETRMC2hnFpDj3b5sqNhOzZp+qEG4lIjvaDY1UJI27VteuoxjpxkHAqw==
   dependencies:
     "@emotion/core" "^10.0.14"
     "@emotion/styled" "^10.0.14"
@@ -6562,8 +6507,8 @@ gatsby-theme-docz@2.0.0-rc.38:
     "@theme-ui/typography" "^0.2.5"
     babel-plugin-export-metadata "^2.0.0-rc.1"
     copy-text-to-clipboard "^2.1.0"
-    docz "2.0.0-rc.9"
-    docz-core "2.0.0-rc.38"
+    docz "2.0.0-rc.43"
+    docz-core "2.0.0-rc.43"
     emotion-theming "^10.0.14"
     fs-extra "^8.1.0"
     gatsby "^2.13.27"
@@ -14821,9 +14766,9 @@ typography-theme-moraga@^0.16.19:
     typography-breakpoint-constants "^0.16.19"
 
 ua-parser-js@^0.7.18:
-  version "0.7.20"
-  resolved "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
-  integrity sha512-8OaIKfzL5cpx8eCMAhhvTlft8GYF8b2eQr6JkCyVdrgjcytyOmPCXrqXFcUnhonRpLlh5yxEZVohm6mzaowUOw==
+  version "0.7.33"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.33.tgz#1d04acb4ccef9293df6f70f2c3d22f3030d8b532"
+  integrity sha512-s8ax/CeZdK9R/56Sui0WM6y9OFREJarMRHqLB2EwkovemBxNQ+Bqu8GAsUnVcXKgphb++ghr/B2BZx4mahujPw==
 
 uglify-js@3.4.x:
   version "3.4.10"
